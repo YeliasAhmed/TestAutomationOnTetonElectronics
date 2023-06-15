@@ -1,0 +1,30 @@
+TC_01:
+Scenario: Verify that the Teton home page all options are available
+1. Open URL
+2. Home page is displayed
+2. Check that the all home page options are available
+
+TC_02:
+Scenario: Verify that the users receive an error message "This email is not registered"
+1. Open URL
+2. Home page is displayed
+3. Check that the login option is available
+4. Click on the login option
+5. Check that the login form is displayed
+6. users give unregistered email with password
+7. Click on the login Button
+8. Check that the "This email is not registered" message is displayed
+
+TC_03:
+Scenario: Verify that the new user is registered successfully
+1. Open URL
+2. Home page is displayed
+3. Check that the login option is available
+4. Click on the login option
+5. Check that the register button is available
+6. Click on the register button
+7. Check that the registration form is displayed
+8. Fill up the all mandatory field
+9. hover to the user profile
+10. Click on the setting
+11. Check that the registered user information is displayed
